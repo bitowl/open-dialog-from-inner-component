@@ -1,0 +1,53 @@
+{
+  "name": "open-dialog-from-inner-component",
+  "version": "0.0.0",
+  "description": "Trying to open a dialog from an inner Polymer component does not work",
+  "homepage": "",
+  "author": {
+    "name": "bitowl",
+    "email": "bitowl@bitowl.de",
+    "url": "https://bitowl.net"
+  },
+  "files": [
+    "dashboard",
+    "graphics",
+    "extension.js",
+    "extension"
+  ],
+  "keywords": [
+    "",
+    "nodecg-bundle"
+  ],
+  "nodecg": {
+    "compatibleRange": "~0.9.10",
+    "dashboardPanels": [
+      {
+        "name": "dialog-test",
+        "title": "Dialog Test",
+        "width": 2,
+        "file": "dialog-test.html",
+        "headerColor": "#9f9bbd"
+      },
+      {
+        "name": "test-dialog",
+        "title": "Test Dialog",
+        "width": 2,
+        "file": "test-dialog.html",
+        "dialog": true,
+        "dialogButtons": [
+          {
+            "name": "Confirm",
+            "type": "confirm"
+          },
+          {
+            "name": "Dismiss",
+            "type": "dismiss"
+          }
+        ]
+      }
+
+    ]
+  },
+  "repository": "git@github.com:bitowl/nodecg.git",
+  "license": "MIT"
+}

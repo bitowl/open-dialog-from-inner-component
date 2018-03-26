@@ -1,0 +1,6 @@
+{
+  "name": "open-dialog-from-inner-component",
+  "dependencies": {
+    "paper-button": "^2.1.0"
+  }
+}
